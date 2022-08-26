@@ -50,6 +50,19 @@ app.post("/sign-up", (req, res) => {
     res.send("OK")
 })
 
+app.post("/tweets", (req, res) => {
+    const newTweet = req.body
+    console.log(newTweet)
+    const fullUser = users.find((value) => {
+        if (value.username === newTweet.username) {
+            return value.avatar
+        }
+    })
+    newTweet.avatar = fullUser.avatar
+    tweets.push(newTweet)
+    res.send("OK")
+})
+
 app.get("/tweets", (req, res) => {
     const lastTweets = []
     if (tweets.length > 9) {
@@ -64,5 +77,6 @@ app.get("/tweets", (req, res) => {
     }
     res.send(lastTweets)
 })
+
 
 app.listen(5000, () => {console.log("Listen on 5000")})
