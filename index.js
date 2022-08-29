@@ -18,9 +18,9 @@ const tweets = [
     tweet: 'Eu vou ser o rei dos piratas!!'
     },
     {
-    username: 'Luffy',
-    avatar: 'https://i.pinimg.com/474x/7e/03/00/7e0300453428cdd3dd9883ebc35862f9.jpg',
-    tweet: 'Eu vou ser o rei dos piratas!!'
+    username: 'Zoro',
+    avatar: 'https://johto.legiaodosherois.com.br/wp-content/uploads/2021/11/legiao_XHYJRSWAV1xl.jpg',
+    tweet: 'Eu vou ser o maior espadachim!!'
     },
     {
     username: 'Luffy',
@@ -28,9 +28,9 @@ const tweets = [
     tweet: 'Eu vou ser o rei dos piratas!!'
     },
     {
-    username: 'Luffy',
-    avatar: 'https://i.pinimg.com/474x/7e/03/00/7e0300453428cdd3dd9883ebc35862f9.jpg',
-    tweet: 'Eu vou ser o rei dos piratas!!'
+    username: 'Sanji',
+    avatar: 'https://sm.ign.com/t/ign_br/screenshot/default/sanji-one-piece_fv5j.h720.jpg',
+    tweet: 'Eu vou encontrar o All Blue!!'
     },
     {
     username: 'Luffy',
@@ -38,9 +38,9 @@ const tweets = [
     tweet: 'Eu vou ser o rei dos piratas!!'
     },
     {
-    username: 'Luffy',
-    avatar: 'https://i.pinimg.com/474x/7e/03/00/7e0300453428cdd3dd9883ebc35862f9.jpg',
-    tweet: 'Eu vou ser o rei dos piratas!!'
+    username: 'Zoro',
+    avatar: 'https://johto.legiaodosherois.com.br/wp-content/uploads/2021/11/legiao_XHYJRSWAV1xl.jpg',
+    tweet: 'CHEGA!!'
     },
 ]
 
